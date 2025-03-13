@@ -1,5 +1,5 @@
 @font-face {
-    font-family: cara;
+    font-family: carra;
     src: url(images/MacondoSwashCaps-Regular.ttf);
 }
 .shape-box{
@@ -11,20 +11,21 @@
     margin-top: -150px;
     border-radius: 40px;
     z-index: -1;
-    rotate: 55deg;
+    rotate: 90deg;
     position: absolute;
 }
 
 .body{
     padding: 10px 0px 10px 200px;
-    margin: 100px;
 }
-.cara{
-    font-family: "cara";
+.carra{
+    font-family: "carra";
     font-weight: lighter;
     font-size: xx-large;
-   /* padding-left: 5%;*/
     padding-bottom: 5%;
+}
+.header_icon{
+    margin-left: 33rem;
 }
 
 .header{
@@ -75,7 +76,6 @@
 }
 .stats{
     font-size: 250%;
-    /*display: flex;*/
     word-spacing: 80px;
     font-weight: lighter;
     margin-top: 50px;
@@ -128,7 +128,6 @@
 }
 .second-container{
     display: flex;
-    /*justify-content: space-between;*/
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -137,6 +136,7 @@
 }
 #play_icon{
     rotate: 180deg;
+    padding: 5px;
 }
 
 .third-container{

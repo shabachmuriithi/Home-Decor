@@ -1,0 +1,314 @@
+@font-face {
+    font-family: cara;
+    src: url(images/MacondoSwashCaps-Regular.ttf);
+}
+.shape-box{
+    height: 500px;
+    width: 400px;
+    background-color: #474747;
+    top: 0;
+    right: 0;
+    margin-top: -150px;
+    border-radius: 40px;
+    z-index: -1;
+    rotate: 55deg;
+    position: absolute;
+}
+
+.body{
+    padding: 10px 0px 10px 200px;
+    margin: 100px;
+}
+.cara{
+    font-family: "cara";
+    font-weight: lighter;
+    font-size: xx-large;
+   /* padding-left: 5%;*/
+    padding-bottom: 5%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.list-links{
+    word-spacing: 50px;
+    margin-right: 350px;
+    margin-top: 50px;
+    
+}
+.first-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+.second-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 400%;
+}
+.word{
+    border: dashed black 2px;
+}
+#button_start{
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(24, 5, 5, 0.712);
+    color: white;
+    cursor: pointer; 
+    border: solid 1px black;
+}
+#icon{
+    height: 50px; width: 50px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.icon-button a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;    
+}
+
+.first-container{
+    display: flex;
+}
+.stats{
+    font-size: 250%;
+    /*display: flex;*/
+    word-spacing: 80px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+.description{
+    font-size: small;
+    display: flex;
+
+}
+#collections{
+    margin-left: 120px;
+}
+#inspired{
+    margin-left: 100px;
+}
+.five-things{
+    margin-left: 300px;
+}
+.brands{
+    word-spacing: 150px;
+    margin-top: 50px;
+}
+#ikea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-stretch: expanded;
+}
+#dipty{
+    font-size: xx-large;
+    color: rgba(128, 128, 128, 0.685);
+}
+}
+#desenio{
+    font-size: xx-large;
+    color: rgba(128, 128, 128, 0.685);
+    font: weight 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#benuta{
+    font-weight: bolder;
+    font-size:xx-large;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#westwinc{
+    font-size: xx-large;
+    font-weight:100px;
+    color: rgba(128, 128, 128, 0.747);
+}
+.second-container{
+    display: flex;
+    /*justify-content: space-between;*/
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.play_btn{
+    margin-left: 70rem;
+}
+#play_icon{
+    rotate: 180deg;
+}
+
+.third-container{
+    word-spacing: 150px;
+}
+.third-container img{
+    height: 200px; width: 200px;
+}
+#new{
+    color: red;
+}
+.offer{
+    word-spacing: 100px;
+}
+#new1{
+    color: red;
+}
+.offer1{
+    word-spacing: 100px;
+    margin-left: 1070px;
+    padding-bottom: 5px;
+}
+#nordic{
+    margin-left: 200px;
+}
+#large{
+    margin-left: 200px;
+}
+#ceramic{
+    margin-left: 190px;
+}
+#nordic_vase{
+    margin-left: 310px;
+}
+#large_ceramic{
+    margin-left: 310px;
+}
+#large_vase{
+    margin-left: 310px;
+}
+.prices{
+    margin-bottom: 100px;
+}
+.space{
+    text-align: center;
+    margin: auto;
+}
+#plant{
+    height: 500px;
+    width: 400px;
+}
+#button_shop{
+border-radius: 30px;
+padding: 20px;
+border: 1px solid black;
+background-color: white;
+}
+.promotions{
+    display: flex;
+    margin-top: 100px;
+}
+#promotion h1{
+    font-size: 300%;
+}
+#promotion{
+    margin-left: 300px;
+}
+#flowerjug{
+    height: 500px;
+    width: 400px;
+    margin-left: 300px;
+}
+.promotions1{
+    display: flex;
+    margin-top: 100px;
+}
+.promotion1 h1{
+    font-size: 300%;
+}
+#button_shop1{
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    }
+    .benefits{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 100px; margin-top: 200px;
+    }
+    .aftersale img{
+        height: 150px; width: 150px;
+    }
+    .aftersale{
+        word-spacing: 150px;
+    }
+    #decor{
+        font-weight: bold;
+    }
+    #guarantee{
+        margin-left: 180px;
+        font-weight: bold;
+    }
+    #gift{
+        margin-left: 130px;
+        font-weight: bold;
+    }
+    #track{
+        margin-left: 170px;
+        font-weight: bold;
+    }
+    #solid{
+        font-weight: bold;
+    }
+    .aftersale1{
+        display: flex;
+    }
+    #thirty_day{
+        margin-left: 100px;
+    }
+    #card_gift{
+        margin-left: 150px;
+    }
+    #order{
+        margin-left: 98px;
+    }
+    .review{
+        text-align: center;
+        margin-top: 150px;
+    }
+    #orange{
+        height: 500px; width: 400px;
+    }
+    #potrait{
+        height: 90px; width: 90px;
+        border-radius: 20px;
+    }
+    .potrait1{
+        display: flex;
+    }
+    .comments{
+        display: flex;
+        margin-top: 100px;
+    }
+    .reviews{
+        margin-left: 150px;
+    }
+    .column ul{
+        list-style-type: none;
+        padding: 5px;
+    }
+    .column a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer{
+        display: flex;
+        
+    }
+    #company{
+        margin-left: 150px;
+    }
+    #socials{
+        margin-left: 200px;
+    }
+    #profile{
+        margin-left: 250px;
+    }
+    .footer{
+        margin-top: 150px;
+    }
+    .closing{
+        display: flex;
+        justify-content: space-between;
+    }
